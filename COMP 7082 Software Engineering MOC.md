@@ -1,1 +1,3 @@
+## Weeks
 - [[COMP 7082 Week 1]]
+## Assignments
