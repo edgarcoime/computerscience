@@ -1,2 +1,2 @@
-- [[COMP 7003 - Week 1]]
-- 
+- [[COMP 7003 Week 1]]
+- [[COMP 7003 Week 2]]
