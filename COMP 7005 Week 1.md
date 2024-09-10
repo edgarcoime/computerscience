@@ -1,0 +1,4 @@
+- Program Outline and general Q&A Google Docs sheet
+	- https://www.bcit.ca/outlines/20243037093/
+	- https://docs.google.com/document/d/1u7avwqUo4NKh4WxgjmA8jctv0RFwq7mGK9IUbgq9vic/edit
+- 
