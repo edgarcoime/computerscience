@@ -3,3 +3,4 @@
 ### Weeks
 - [[COMP 7005 Week 1]]
 - [[COMP 7005 Week 2]]
+- [[COMP 7005 Week 3]]
