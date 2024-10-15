@@ -133,4 +133,29 @@
 10. Toolchain
 	1. OSS
 ## Week 6 
+1. Architectural Patterns
+	1. Means of representing, sharing, and reusing knowledge about software systems
+	2. Stylized description of good design practice
+### Layered Pattern
+1. Each layer in the architecture forms an abstraction around the work
+	1. Presentation
+	2. Business
+	3. Persistence
+	4. Database
+2. Separation of concerns and each layer is closed in terms of implementation and isolated from each other
+3. Open Layers can only access or circumvent layers below it not above it
+	1. For example the Business logic can circumvent the next service layer into the Persistence layer.
+	2. But the persistence Layer cannot go up the tree and access the Service layer or beyond that into the Business layer
+4. Cross cutting concerns
+	1. defn: Concerns or potential issues that can affect the entire system
+	2. Crosscutting concerns are different to functional concerns that are limited to scope by the layer that has to accoutn for them. 
+5. Aspect Oriented programming
+6. Sinkhole coding example
+7. Monolithic type
+### Client Server 
+### MVC
+### Event Driven Architecture
+### Repository Pattern
+### Pipe and Filter pattern
+### Service Oriented Architecture 
 ## Week  7
