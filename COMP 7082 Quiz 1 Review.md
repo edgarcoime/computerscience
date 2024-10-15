@@ -32,7 +32,66 @@
 5. User stories are used to describe features in the product that should be implemented
 ## Week 3 - Presentations
 ## Week 4 
-1. 
+1. What makes a good split
+	1. Low coupling
+	2. High Cohesion
+	3. Abstraction and Encapsulation
+2. Low coupling
+	1. Coupling: How much interdependence along components in a program
+	2. Before: A change in 1 part of the system leads to changes in many parts of the system
+	3. After: The code is flexible and easier to maintain. Allows for changes in a part of the system without affecting others. 
+3. High Cohesion
+	1. Cohesion: Measure of strength/association of elements within component
+	2. Problems of low Cohesion: Difficult to reuse and hard to maintain
+	3. Benefits of high cohesion: Easy to maintain, reusability, testability, and single responsibility
+4. Abstraction
+	1. View of an object that focuses on relevent information and hiding implementation details
+	2. Allows for interaction of an object without knowing internal details. 
+	3. Problems Before: Too many details
+	4. Benefits After: Simplified interface and easier to use
+5. Encapsulation
+	1. Grouping and packing internal details of an abstraction and making details inaccessible to external entities.
+	2. Before encapsulation: no control and exposure of internal state
+	3. Benefits after: controlled access and no unwanted access to internals
+6. Class diagram
+	1. Purpose: to show the static structure of the system in terms of classes and attributes
+	2. Visibility: Sets accessibility of attribute and methods
+	3. Multiplicity: Indicating n to j relationships between entitites
+	4. Aggregation (Has-a relationship)
+		1. Parts exist independent of the whole
+		2. Team has multiple players
+		3. But if team is dissolved players don't disappear as well
+	6. Composition (Has-a but stronger relationship)
+		1. Parts are destroyed when the whole is destroyed
+		2. A house has many rooms
+		3. If the house is destroyed the rooms are destroyed along with it
+	7. Generalization
+		1. Labelled group of generalizations with a common superclass
+		2. habitat -> Aquatic, Land
+		3. Type of Food -> Carnivore, Herbivore
+	8. Association
+		1. No specific dependencies just a basic association relationship
+		2. SeaAnimal --- SeaUrchin
+			1. Eats
+7. Sequence Diagrams
+	1. Type of diagram that illustrates how objects or classes within a system interact over time 
+	2. Shows interaction as they take place and how classes collaborate with one another. 
+	3. Steps
+		1. Identify Actor and Objects
+		2. Lifelines
+		3. Messages and interactions
+		4. Alternative frames for conditional logic
+		5. Activation Boxes
+8. State Diagram
+	1. Technique used to describe how a system behaves or responds to events
+	2. Has 3 main components: 
+		1. State Name
+		2. State Variables
+		3. State Activities
+	3. Benefits: 
+		1. Visualize object behaviour
+		2. Error detection or missing conditions
+		3. Testing
 ## Week 5 
 ## Week 6 
 ## Week  7
