@@ -93,5 +93,44 @@
 		2. Error detection or missing conditions
 		3. Testing
 ## Week 5 
+1. Architectural trade-offs
+	1. Maintainability
+		1. Decompose app into fine-grain components
+		2. Small, compact, and easy to maintain
+		3. Easy to test and can easily find parts that can be reusable 
+	2. Communication Overhead (Performance)
+		1. More components introduces more communication between them which in turn means added latency
+2. ORMS vs SQL queries
+	1. Easy to maintain, low performance *
+		1. Relatively low performance compared to raw sql
+		2. Easy to maintain and even swap out DBMS down the road since interop is abstracted out
+		3. Faster development times because usually easier than designing raw sql queries
+	2. Hard to maintain, higher performance
+		1. High performance and can leverage specific dbms features to be more efficient
+		2. Hard to maintain and now query structure responsibility is now pushed onto the developers
+3. Centralized security architectures
+	1. Easier to design and build protection but if security is breached lose everything
+	2. Security
+		1. Achieve security by having multiple layers that an attacker has to go through
+		2. Auth layers, critical feature auth layer, and may encryption layer
+	3. Usability
+		1. Layered approach makes your codebase harder to onboard and get used to especially when switching teams.
+		2. On the users point of view if there are too many security checks they can get irritated and they will always find ways to make it easier to login
+4. Availability vs time-to-market
+	1. Refers to percentage of time that the system is up and running and delivering service to users
+	2. Very important for certain industries such as banking and government
+	3. Can be achieved by introducing redundant component
+		1. Coupled with sensor components to detect failure
+	4. Increased development time and complexity
+5. Architectural Design decision issues
+6. Architectural Complexity
+7. Technology Choices
+	1. Database: SQL vs ORM
+8. Delivery Platform
+	1. Mobile
+	2. Web-based
+9. Server considerations: Cloud vs Customer Serves
+10. Toolchain
+	1. OSS
 ## Week 6 
 ## Week  7
